@@ -89,6 +89,57 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Reviews section styling */
+#reviews blockquote {
+  background-color: #1a1a1a;
+  border-left: 4px solid #c8a854;
+  margin: 20px 0;
+  padding: 15px 20px;
+  font-style: italic;
+}
+
+#reviews cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+#reviews form {
+  margin-top: 20px;
+}
+
+#reviews input,
+#reviews textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background-color: #1f1f1f;
+  color: #f5f5f5;
+}
+
+#reviews input::placeholder,
+#reviews textarea::placeholder {
+  color: #888;
+}
+
+#reviews button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #c8a854;
+  color: #0d0d0d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#reviews button:hover {
+  background-color: #e0c276;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .hero h1 {
